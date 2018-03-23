@@ -26,3 +26,17 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.nav {
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: flex-end;
+}
+.active {
+  font-weight: bold;
+}
+
+.nav li {
+  margin-right: 20px;
+  list-style-type: none;
+}
